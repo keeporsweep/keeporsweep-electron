@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/Code">
+
+<head prefix="og: http://ogp.me/ns#">
+	<meta charset="utf-8">
+	<title>Keep or Sweep</title>
+	<meta name="description" content="Randomly declutter your digital life!">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Keep or Sweep team">
+    <link rel="canonical" href="http://keeporsweep.net" />
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-title" content="Keep or Sweep">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="theme-color" content="#e9322d">
+	<link rel="icon" href="./assets/icon.svg">
+	<link rel="apple-touch-icon-precomposed" href="./assets/icon.svg">
+	<link rel="mask-icon" sizes="any" href="./assets/app-dark.svg" color="#e9322d">
+
+    <link rel="stylesheet" href="css/app.css">
+
+	<meta property="og:type" content="object">
+	<meta property="og:site_name" content="Keep or Sweep">
+	<meta property="og:title" content="Keep or Sweep">
+	<meta property="og:description" content="Randomly declutter your digital life!">
+	<meta property="og:image" content="assets/icon-512.png">
+	<meta property="og:image:width" content="512">
+	<meta property="og:image:height" content="512">
+	<meta property="og:url" content="http://keeporsweep.net">
+	<meta property="twitter:card" content="summary">
+    <meta property="twitter:site" content="@keeporsweep" />
+	<meta property="twitter:title" content="Keep or Sweep">
+	<meta property="twitter:description" content="Randomly declutter your digital life!">
+	<meta property="twitter:image" content="assets/icon-512.png">
+	<meta property="twitter:url" content="http://keeporsweep.net" />
+
+	<meta itemprop="name" content="Keep or Sweep">
+	<meta itemprop="description" content="Randomly declutter your digital life!">
+	<meta itemprop="image" content="assets/icon-512.png">
+	<meta itemprop="codeRepository" content="https://github.com/keeporsweep">
+</head>
+
+<body>
+	<noscript>
+		Please <a href="https://www.enable-javascript.com/" target="_blank" rel="noopener">enable Javascript</a> to use Keep or Sweep.
+	</noscript>
+	<div id="app-content"></div>
+
+    <script>
+        // You can also require other files to run in this process
+        window.$ = window.jQuery = require('./vendor/jquery-3.4.1.min.js')
+        require('./js/manifest.js')
+        require('./js/vendor.js')
+        require('./js/app.js')
+        require('./renderer.js')
+    </script>
+	<!-- built files will be auto injected -->
+</body>
+
+</html>
